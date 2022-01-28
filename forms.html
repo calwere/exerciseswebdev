@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Input forms</title>
+    <style>
+        form{
+            margin: 15px;
+            padding: 10px;
+            border: solid blue;
+            width: fit-content;
+            background-color: grey;
+            alignment: center;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Data collection Sheet</h2>
+<a href="listss.html">View Performance List</a>
+
+<form action="form">
+
+    <label for="name">Full Names</label>
+    <input type="text" id="name" placeholder="Enter your name"><br>
+    <label for="phone">Phone number</label>
+    <input type="number"id="phone" placeholder="Telephone number"><br>
+    <label for="Email">Email address</label>
+    <input type="email" id="Email" placeholder="Your email address"><br>
+    <label for="course">Course</label>
+    <select name="taaluma" id="course"><br>
+        <option value="Cyb">Cyber Security</option>
+        <option value="geosp">Geospatial Engineering</option>
+        <option value="civil">Civil Engineering</option>
+        <option value="mech">Mechanical Engineering</option>
+        <option value="aer">aeronautical Engineering</option>
+    </select><br>
+    <label for="dal">Local Date</label>
+    <input type="datetime-local" id="dal"><br>
+    <label for="doa">Date of Admission</label>
+    <input type="date" id="doa" placeholder="Enter the date you were admitted"><br>
+    <label for="pass">Password</label>
+    <input type="password"id="pass" placeholder="Input your password"><br>
+    <input type="submit" value="Register">
+</form>
+
+
+</body>
+
+</html>
